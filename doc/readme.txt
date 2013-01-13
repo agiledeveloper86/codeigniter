@@ -28,5 +28,5 @@ local/app/views/home.php-->create a simple view with html content
 local/app/models/site_model.php-->defining the model
 local/app/views/about.php-->another view page
 
-Day completed
+Day1 completed
 ------------------------------------------------------
