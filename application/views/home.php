@@ -20,9 +20,11 @@
 
        <!-- 3.grabing data from db by active records-->
        <p>My view has been loaded</p>
-         <?php foreach($records as $row) : ?>
-        <h1><?php echo $row->title; ?></h1>
-         <?php endforeach; ?>
+         <h1><?php foreach($records as $row) {
+                      echo $row->title.'<br />'; 
+                                         }
+          ?><h1>
+
          
 
        
